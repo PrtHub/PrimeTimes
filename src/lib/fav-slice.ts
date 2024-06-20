@@ -1,15 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 import type { PayloadAction } from '@reduxjs/toolkit'
 import { RootState } from './store'
-
-interface Favorite {
-  title: string
-  description: string
-  author: string
-  url: string
-  urlToImage: string
-  publishedAt: string
-}
+import { Favorite } from '../utils/types'
 
 interface FavState {
  favorites: Favorite[]
