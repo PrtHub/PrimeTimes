@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useDebounce } from "use-debounce";
 import { Loader2 } from "lucide-react";
 import axios from "axios";
