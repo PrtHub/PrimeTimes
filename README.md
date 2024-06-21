@@ -1,5 +1,5 @@
 # PrimeTimes
-News Portal is a responsive React application designed to provide users with the latest news articles fetched from a public API. The application features a clean and intuitive interface, allowing users to filter articles by category, navigate through paginated articles, and view detailed content for each news article. The app is optimized for both desktop and mobile devices, ensuring a seamless user experience across various platforms.
+PrimeTimes is a responsive React application designed to provide users with the latest news articles fetched from a public NEWS API. The application features a clean and intuitive interface, allowing users to filter articles by category, navigate through paginated articles, and view detailed content for each news article. The app is optimized for both desktop and mobile devices, ensuring a seamless user experience across various platforms.
 
 ## Features
 
