@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# PrimeTimes
+News Portal is a responsive React application designed to provide users with the latest news articles fetched from a public API. The application features a clean and intuitive interface, allowing users to filter articles by category, navigate through paginated articles, and view detailed content for each news article. The app is optimized for both desktop and mobile devices, ensuring a seamless user experience across various platforms.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+- Responsive Design: Adapts to both desktop and mobile devices.
+- Article List: Displays news articles with titles, images, and summaries.
+- Detailed View Links: Each article links to a detailed view page
+- Filter Options: Dropdown or buttons to filter articles by categories such as Business, Technology, and Entertainment.
+- Pagination: Users can easily navigate through different pages of articles.
+- Real-Time Data: Fetches news articles from a public news API.
+- Error Handling: Manages loading states and handles errors during API calls effectively.
+- Search Functionality: Allows users to search for articles by keywords.
+- Favorites: Users can save articles to favorites, with persistence using local storage.
+- React Hooks: Manages user inputs, API responses, and application state with React hooks.
+- Redux Toolkit: Utilizes Redux Toolkit for efficient global state management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running the Project Locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Clone the repository: 
+ ```
+git clone https://github.com/PrtHub/PrimeTimes
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Navigate to the project directory
+``` 
+cd PrimeTimes
+```
+
+### Install the dependencies:
+```
+npm install
+```
+
+### start the development server:
+```
+npm run dev
+```
